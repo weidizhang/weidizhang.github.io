@@ -5,75 +5,104 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="shortcut icon" href="images/favicon.ico">
-
-		<script src="main.js"></script>
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<style>
-		/*#resume-link, #resume-link:visited
-		{
-			font-size: 13px;
-			color: #ff7496;
-		}
-
-		#resume-link:hover
-		{
-			
-			color: #ef537a;
-		}
-		*/
-		#custom-p
-		{
-			margin-bottom: 10px;
-			font-size: 17px;
-		}
-
-		#p-info
-		{
-			font-size: 12px;
-		}
-		</style>
 	</head>
 	<body class="is-preload">
-			<div id="wrapper">
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/avatar.png" alt="" /></span>
-							<h1>Weidi Zhang</h1>
-							<p id="custom-p">
-								Computer Science
-								<div id="p-info">
-									Undergraduate at
-									<br>
-									<span style="font-weight: bold;">University of California, Irvine</span>
-									<!--<br>
-									<br>
-									<a href="#" id="resume-link" target="_blank">View My Resume</a>-->
-								</div>
-							</p>							
-						</header>
-						<footer>
-							<ul class="icons" style="margin-bottom: 0px;">								
-								<li><a href="https://github.com/weidizhang" class="fa-github">GitHub</a></li>
-								<li><a href="https://www.linkedin.com/in/zhangweidi" class="fa-linkedin">LinkedIn</a></li>
-								<li><a href="#" class="fa-envelope-o" id="email-link">Email</a></li>
-							</ul>
-						</footer>
-					</section>
-
-					<footer id="footer">
-						<ul class="copyright">
-							<li></li>
-						</ul>
-					</footer>
+		<header id="header">
+			<div class="inner">
+				<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
+				<h1>
+					Hi, I'm <strong>Weidi Zhang</strong>, a <strong>software<br />
+					engineer</strong> passionate about the<br />
+					inner workings of technology.
+				</h1>
 			</div>
+		</header>
 
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
+		<div id="main">
+				<section id="one">
+					<header class="major">
+						<h2>Software is my passion.</h2>
+					</header>
+					<p>
+						I'm currently studying <strong>Computer Science</strong> at <strong>University of California, Irvine</strong>,
+						heading towards graduation in December 2020. Some of the courses I've taken include computer vision, artificial
+						intelligence, and machine learning &mdash; a testament to the fact that I love seeing the advancement of
+						technology in new and exciting fields. I've been able to put in my fullest and grow my knowledge of the wide
+						field that computer science encompasses through internship experience to further my aspiring career as a software
+						engineer.
+					</p>
+				</section>
+
+				<section id="two">
+					<h2>Here's some featured projects.</h2>
+					<div class="row">
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/projects/genesis.jpg" class="image fit thumb">
+								<img src="images/projects/genesis_thumb.jpg" alt="" />
+							</a>
+							<div class="project-caption">
+								View Genesis Asset Trader on <a href="https://github.com/weidizhang/genesis-asset-trader">GitHub</a>
+							</div>
+							<h3>Genesis Asset Trader</h3>
+							<p>An asset trading stragey using models on market indicators.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/projects/livepoller.jpg" class="image fit thumb">
+								<img src="images/projects/livepoller_thumb.jpg" alt="" />
+							</a>
+							<div class="project-caption">
+								View Live Poller on <a href="https://github.com/weidizhang/Live-Poller">GitHub</a>
+							</div>
+							<h3>Live Poller</h3>
+							<p>A live group polling platform created with Python and Flask.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/projects/flowerdashboard.png" class="image fit thumb">
+								<img src="images/projects/flowerdashboard.png" alt="" />
+							</a>
+							<div class="project-caption">
+								View Flower Dashboard on <a href="https://github.com/weidizhang/Flower-Dashboard">GitHub</a>
+							</div>
+							<h3>Flower Dashboard</h3>
+							<p>Track cryptocurrency and stock investments all in one place.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="images/projects/macrandomizer.jpg" class="image fit thumb">
+								<img src="images/projects/macrandomizer_thumb.jpg" alt="" />
+							</a>
+							<div class="project-caption">
+								View MAC Randomizer on <a href="https://github.com/weidizhang/MAC-Randomizer">GitHub</a>
+							</div>
+							<h3>MAC Randomizer</h3>
+							<p>An Android app to protect your privacy on public networks.</p>
+						</article>
+					</div>
+					<ul class="actions">
+						<div style="margin: 0 auto;">
+							<li><a href="https://github.com/weidizhang" class="button">View Full Portfolio</a></li>
+						</div>
+					</ul>
+				</section>
+		</div>
+
+		<footer id="footer">
+			<h1>Let's connect.</h1>
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/zhangweidi/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/weidizhang" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon solid fa-envelope" id="email-link"><span class="label">Email</span></a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+
+		<script src="assets/js/util.min.js"></script>
+		<script src="assets/js/main.min.js"></script>
+		<script src="assets/js/email.min.js"></script>
 	</body>
 </html>
